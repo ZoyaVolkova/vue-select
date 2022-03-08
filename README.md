@@ -1,8 +1,12 @@
 # vue-select
 
-## Связанные выпадающие списки Vue.js
+## Related dropdowns Vue.js
 
-Первые три списка и последние два зависят друг от друга: при выборе города, количество цехов и сотрудников меняется, при выборе цеха или сотрудника аналогично.
+The first three lists and the last two depend on each other. 
+<br>
+When choosing a city, the number of departments and employees changes, when choosing a department, the number of cities and employees changes, when choosing an employee, the number of cities and departments changes.
+<br>
+When choosing a brigade, the shift changes and vice versa.
 
 ![Untitled](src/assets/readme.png)
 ## Project setup
